@@ -11,6 +11,6 @@ COPY modele_xml /app/modele_xml
 
 RUN mkdir -p uploads modele_xml
 
-EXPOSE 5001
+EXPOSE 5000
 
 CMD ["python", "app.py"]
